@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>基督教旅行社</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="container navbar-flex">
+        <img src="./img/logo.png" alt="" class="logo" />
+        <!-- desktop menu -->
+        <div class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="index.htm">主頁</a></li>
+            <li class="menu-item"><a href="about.htm">關於我們</a></li>
+            <li class="menu-item"><a href="tours.htm">旅行團</a></li>
+            <li class="menu-item"><a href="Israel.htm">以色列</a></li>
+            <li class="menu-item"><a href="HongKong.htm">香港</a></li>
+            <li class="menu-item"><a href="USA.htm">美國</a></li>
+            <li class="menu-item"><a href="England.htm">英國</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu">
+          <ul class="icon-list">
+            <li class="icon-item">
+              <a href="http://facebook.com"
+                ><i class="fa-brands fa-facebook"> </i
+              ></a>
+            </li>
+            <li class="icon-item">
+              <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li class="icon-item">
+              <a href="https://www.threads.com/"><i class="fa-brands fa-threads"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu">
+          <div class="mobile-menu-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="index.htm">主頁</a></li>
+            <li><a href="about.htm">關於我們</a></li>
+            <li><a href="tours.htm">旅行團</a></li>
+            <li><a href="Israel.htm">以色列</a></li>
+            <li><a href="HongKong.htm">香港</a></li>
+            <li><a href="USA.htm">美國</a></li>
+            <li><a href="England.htm">英國</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hong Kong -->
+    <section class="hongkong">
+      <div class="hongkong-img" >
+        <button class="button1" onclick="hongkongLeft()">⬅︎</button>
+          <img id="hongkongImage" src="./img/hongkong1.jpg" alt="hongkong" />
+          <button class="button2" onclick="hongkongRight()">➡︎</button>
+      </div>
+      <h2>九龍城浸信會之旅</h2>
+      <p class="text1">九龍城浸信會以傳揚福音，領人歸主，牧養信徒，聯絡會友及辦理教育、慈惠及社會服務等工作，完成耶穌基督所付託之使命為宗旨。九龍城浸信會有超過85年歷史，昰香港最著名的教會之一，每個星期六和星期天有幾場崇拜，崇拜包括唱詩歌、講道和祈禱。</p>
+      <p class="text2">
+        地址：香港九龍亞皆老街206號<br>
+        電話總機：+852 2713 5111<br>
+        電子郵箱：<a href="mailto:kcbc@baptist.org.hk">kcbc@baptist.org.hk</a><br>
+        網址： <a href="https://www.baptist.org.hk/">https://www.baptist.org.hk/</a><br>
+        Youtube: <a href="https://www.youtube.com/@kcbc1234">https://www.youtube.com/@kcbc1234</a>
+      </p>
+      <div class="hongkong_map-img">
+          <img src="./img/hongkongMeeting.png" alt="hongkongMeeting" />        
+          <img src="./img/hongkong_map.png" alt="hongkong_map" />
+      </div>
+      <div class="hongkongGoogle">
+        <iframe height="500" class="baptistframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7381.594499832966!2d114.1822579650541!3d22.32350640554261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400d474c15177%3A0xc04583d54c7663d4!2z5Lmd6b6N5Z-O5rW45L-h5pyD!5e0!3m2!1szh-TW!2shk!4v1639391617898!5m2!1szh-TW!2shk" style="max-width:600px" width="100%"></iframe>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="index.htm">主頁</a></li>
+            <li class="menu-item"><a href="about.htm">關於我們</a></li>
+            <li class="menu-item"><a href="tours.htm">旅行團</a></li>
+            <li class="menu-item"><a href="Israel.htm">以色列</a></li>
+            <li class="menu-item"><a href="HongKong.htm">香港</a></li>
+            <li class="menu-item"><a href="USA.htm">美國</a></li>
+            <li class="menu-item"><a href="England.htm">英國</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon-menu">
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="http://facebook.com"
+              ><i class="fa-brands fa-facebook"> </i
+            ></a>
+          </li>
+          <li class="icon-item">
+            <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+          <li class="icon-item">
+            <a href="https://www.threads.com/"><i class="fa-brands fa-threads"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p>Copyright &copy; <span id="date"></span>基督教旅行社 保留所有權利</p>
+    </footer>
+    <script src="./js/tour.js"></script>
+  </body>
+</html>
